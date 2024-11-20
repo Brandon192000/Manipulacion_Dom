@@ -1,0 +1,93 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.container-list {
+    margin-top: 20px;
+    padding: 10px;
+    background: #000;
+    border-radius: 5px;
+    
+}
+
+#Lista {
+    padding: 0;
+    margin: 0;
+    list-style-type: decimal; /* Cambiar a numeros */
+    font-size: 18px;
+    list-style-position: inside; /* Mueve los nuumeros dentro del contenedor */
+}
+
+
+.completado {
+    background-color: #eeeeee86; /* Cambiar el color del texto a verde */
+    text-decoration: line-through; /* Agregar una línea tachada */
+    color: #252525;
+}
+
+
+.custom-div {
+    width: 100%;
+    background-image: url('/Manipulacion_dom_Brandon/img/descarga.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+    /* Efecto de vidrio */
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.responsive-img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Efecto hover (al pasar el cursor) */
+.responsive-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
+    filter: brightness(1.1); 
+}
